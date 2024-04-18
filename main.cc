@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
         if (operators.back() == "x") {
           numbers.push_back(MultiplyNumbers(a, std::stod(argv[i+1])));
         }
-        if (operators.back() == "y") {
+        if (operators.back() == "/") {
           numbers.push_back(DivideNumbers(a, std::stod(argv[i+1])));
         }
         ++i;  // iterate past the next variable since it was already used
